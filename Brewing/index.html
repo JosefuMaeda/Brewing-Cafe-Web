@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewing Café</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <div class="brand-wrapper">
+                <a href="#home" class="brand-icon-link">
+                    <img src="images/logo.png" alt="Brand Logo" class="brand-icon">
+                </a>
+                <a href="#home" class="brand">Brewing</a>
+            </div>
+
+            <!-- Menu Links -->
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#visit">Visit Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <p class="tagline">Sip slowly. Stay awhile.</p>
+                    <h1 class="MainHeading">
+                        <span>BREWING.</span>
+                        <span>SIPPING.</span>
+                        <span>RELAXING.</span>
+                    </h1>
+                    <p class="quote">
+                        Your neighborhood café for freshly brewed coffee, homemade treats, and good conversations.
+                    </p>
+                    <a href="#menu" class="btn">Explore Our Menu</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/coffee.png" alt="Coffee Cup">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-content about-section">
+            <div class="container about-container">
+                <div class="about-image">
+                    <img src="images/cafe.avif" alt="Inside Brewing Café">
+                </div>
+                <div class="about-text">
+                    <h2>About Brewing Café</h2>
+                    <p class="about-desc">
+                        Brewing Café was created as a cozy space where people can slow down, enjoy great coffee, and connect with others. We serve freshly brewed coffee, handcrafted drinks, pastries, and light meals prepared with quality ingredients.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon"></span>
+                            <h3>Freshly Brewed</h3>
+                            <p>Beans roasted daily for ultimate flavor.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon"></span>
+                            <h3>Locally Sourced</h3>
+                            <p>Ingredients fresh from local partners.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon"></span>
+                            <h3>Made with Care</h3>
+                            <p>Crafted thoughtfully by our baristas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="section-content menu-section">
+            <div class="container menu-container">
+                <h2 class="menu-title">OUR SPECIAL MENU</h2>
+                <p class="menu-subtitle">Handcrafted drinks and freshly baked treats made daily.</p>
+                <hr class="menu-divider">
+
+                <!-- 6-Product Responsive Grid -->
+                <div class="menu-grid">
+                    <!-- Product 1 -->
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800&auto=format&fit=crop" alt="Classic Latte">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3 class="product-title">Classic Latte</h3>
+                            <p class="product-desc">Espresso blended with steamed milk.</p>
+                            <span class="product-price">₱140</span>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=800&auto=format&fit=crop" alt="Caramel Macchiato">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3 class="product-title">Caramel Macchiato</h3>
+                            <p class="product-desc">Espresso, steamed milk, and caramel.</p>
+                            <span class="product-price">₱155</span>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800&auto=format&fit=crop" alt="Spanish Latte">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3 class="product-title">Spanish Latte</h3>
+                            <p class="product-desc">Rich espresso with sweetened milk.</p>
+                            <span class="product-price">₱150</span>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?q=80&w=800&auto=format&fit=crop" alt="Matcha Cream Latte">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3 class="product-title">Matcha Cream Latte</h3>
+                            <p class="product-desc">Smooth matcha with creamy milk.</p>
+                            <span class="product-price">₱160</span>
+                        </div>
+                    </div>
+
+                    <!-- Product 5 -->
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop" alt="Chocolate Croissant">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3 class="product-title">Chocolate Croissant</h3>
+                            <p class="product-desc">Buttery pastry filled with chocolate.</p>
+                            <span class="product-price">₱120</span>
+                        </div>
+                    </div>
+
+                    <!-- Product 6 -->
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=800&auto=format&fit=crop" alt="Blueberry Cheesecake">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3 class="product-title">Blueberry Cheesecake</h3>
+                            <p class="product-desc">Creamy cheesecake with blueberry topping.</p>
+                            <span class="product-price">₱175</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="menu-divider">
+
+                <p class="menu-footnote">* All espresso beverages available hot or iced. Non-dairy milk available.</p>
+            </div>
+        </section>
+
+        <section id="special-offer" class="offer-section">
+            <div class="container offer-container">
+                <div class="offer-card">
+                    <span class="offer-badge">Special Offer</span>
+                    <h2 class="offer-title">STUDY BREAK SPECIAL</h2>
+                    <p class="offer-desc">
+                        Get any regular coffee + pastry for only <span class="offer-price">₱199</span>.
+                    </p>
+                    <a href="#contact" class="btn-offer">Grab the Offer</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visit Us Section -->
+        <section id="visit" class="visit-section">
+            <div class="visit-overlay">
+                <div class="container visit-container">
+                    <h2 class="visit-title">VISIT BREWING CAFE</h2>
+                    <p class="visit-subtitle">Drop by for your daily brew or find a cozy spot to study and relax.</p>
+
+                    <div class="visit-grid">
+                        
+                        <div class="visit-card visit-details-card">
+
+                            <div class="visit-info-group">
+                                <div class="info-icon">📍</div>
+                                <div class="info-text">
+                                    <h3>Address</h3>
+                                    <p>123 University Avenue, Batangas City</p>
+                                </div>
+                            </div>
+
+                            <div class="visit-info-group">
+                                <div class="info-icon">🕒</div>
+                                <div class="info-text">
+                                    <h3>Opening Hours</h3>
+                                    <p><span>Monday – Saturday</span> 7:00 AM – 9:00 PM</p>
+                                    <p><span>Sunday</span> 8:00 AM – 6:00 PM</p>
+                                </div>
+                            </div>
+
+                            <div class="visit-info-group">
+                                <div class="info-icon">📞</div>
+                                <div class="info-text">
+                                    <h3>Contact Information</h3>
+                                    <p><strong>Phone:</strong> (043) 123-4567</p>
+                                    <p><strong>Email:</strong> brewingcafe@brewed.caf</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visit-card visit-map-card">
+                            <a>
+                                <img src="images/map.png" alt="Brewing Cafe Location Map" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; display: block;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section-content" id="contact">
+            <div class="contact-container">
+                <h2>Get In Touch</h2>
+                <p>Have a question or feedback? Send us a message and we'll get back to you soon.</p>
+                
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="fullname">Full Name *</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-col footer-brand-col">
+                    <h3 class="footer-brand">Brewing Café</h3>
+                    <p class="footer-desc">
+                        Your cozy neighborhood spot in Batangas City. Serving handcrafted brews, warm pastries, and a comforting atmosphere to study or relax.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#visit">Visit Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <div class="footer-contact">
+                        <p>📍 123 University Avenue, Batangas City</p>
+                        <p>📞 (043) 123-4567</p>
+                        <p>✉️ brewingcafe@brewed.caf</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Brewing Café. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
