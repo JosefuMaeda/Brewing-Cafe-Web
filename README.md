@@ -8,13 +8,13 @@ HTML • CSS
 ## Live demo
 https://josefumaeda.github.io/Brewing-Cafe-Web/Brewing
 
-## Screenshots
+# Screenshots
 
-Desktop View
+##Desktop View
 ![Desktop view](<Screenshots/Desktop (1440x900).png>)
 
-Tablet View
+##Tablet View
 ![Tablet view](<Screenshots/Tablet (768x1024).png>)
 
-Mobile View
+##Mobile View
 ![Mobile view](<Screenshots/Mobile (390x844).png>)
