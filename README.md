@@ -6,7 +6,7 @@ A coffee shop website with a menu, about section, and contact info.
 HTML • CSS
 
 ## Live demo
-https://josefumaeda.github.io/Brewing-Cafe-Web/
+https://josefumaeda.github.io/Brewing-Cafe-Web/Brewing
 
 ## Screenshot
 ![Brewing Café homepage](screenshot.png)
