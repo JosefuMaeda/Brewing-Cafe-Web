@@ -10,11 +10,6 @@ https://josefumaeda.github.io/Brewing-Cafe-Web/Brewing
 
 ## Screenshots
 
-### Desktop
-![Desktop view](Screenshots/desktop.png)
-
-### Tablet
-![Tablet view](Screenshots/tablet.png)
-
-### Mobile
-![Mobile view](Screenshots/mobile.png)
+![Desktop view](<Screenshots/Desktop (1440x900).png>)
+![Tablet view](<Screenshots/Tablet (768x1024).png>)
+![Mobile view](<Screenshots/Mobile (390x844).png>)
